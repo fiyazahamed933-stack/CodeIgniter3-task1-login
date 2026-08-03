@@ -110,7 +110,5 @@
             $this->load->view('home');
             
         }
-        
-    
     }
 ?>
