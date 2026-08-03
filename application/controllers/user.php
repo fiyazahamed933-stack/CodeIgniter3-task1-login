@@ -97,24 +97,17 @@
                             $this->session->set_flashdata('error', 'Incorrect Password');
                              redirect('user/login');
                         }
-                
-                    }
-                   
-                    
-
+                    }                  
                 }
                  if(!$email_exits){
                         $this->session->set_flashdata('error', 'Invalid gmail');
                          redirect('user/login');
-
                     }
-                
             }
         }
-
         public function home(){
             $this->load->helper('url');
-             $this->load->view('home');
+            $this->load->view('home');
             
         }
         
